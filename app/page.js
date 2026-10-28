@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ArtworkGallery from "../components/ArtworkGallery";
 import SoftwareShowcase from "../components/SoftwareShowcase";
+import ThemeToggle from "../components/ThemeToggle";
 
 const designTools = ["AFFINITY", "CORELDRAW", "FIGMA", "CANVA"];
 const devTools = ["HTML", "CSS", "JAVASCRIPT", "PYTHON", "PHP", "REACT", "NEXT.JS", "GIT"];
@@ -18,7 +19,7 @@ export default function Home() {
         <nav className="site-nav" aria-label="Primary navigation">
           <a href="#work">[01] WORK</a><a href="#archive">[02] ARCHIVE</a><a href="#development">[03] WEB</a><a href="#about">[04] ABOUT</a><a href="#contact">[05] CONTACT</a>
         </nav>
-        <span className="header-icon" aria-hidden="true">↗</span>
+        <div className="header-controls"><ThemeToggle /></div>
       </header>
 
       <main id="main">
