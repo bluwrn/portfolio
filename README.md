@@ -1,6 +1,6 @@
 # Bluwrn
 
-Personal portfolio for my graphic design work and web projects. Built with Next.js, using a visual direction based on my Figma design.
+Personal portfolio for my graphic design work and web projects. Built with Next.js.
 
 ## What's here
 
@@ -9,7 +9,6 @@ Personal portfolio for my graphic design work and web projects. Built with Next.
 - Light and dark modes, with the selected theme saved in the browser.
 - Sections for web projects, about, skills, and contact.
 
-The software project previews and contact links are still placeholders.
 
 ## Run locally
 
