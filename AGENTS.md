@@ -55,3 +55,8 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - Summarize changed files and explain significant decisions.
 - Do not claim changes are tested unless checks actually ran.
 
+## Design Guidelines
+
+For any UI, layout, typography, color, or animation changes, read `docs/DESIGN.md` and its referenced mockups before editing.
+
+Preserve approved design decisions unless explicitly instructed otherwise. Do not invent portfolio content or artwork.

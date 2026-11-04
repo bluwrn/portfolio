@@ -31,6 +31,24 @@ The established Figma design serves as a reference for typography, color, visual
 
 Layouts may be improved if they better showcase the user's work while preserving the established art direction.
 
+Before design or UI work, also read [DESIGN.md](DESIGN.md) and its approved references. The permanent specification records the intended hero; it does not mean that hero has been implemented.
+
+Approved hero direction:
+
+- Name-driven experimental editorial composition with an oversized `BLUWRN.` masthead.
+- A curated printed-paper stack of four real graphic design artworks, with controlled overlap, static tilts, and restrained shadows.
+- On desktop, the introduction and actions sit on the left and the stack on the right beneath the masthead. On mobile, introduction and actions precede the stack in a vertical composition.
+- Color Your Night is the front print; Bijak and MOCA are rear prints that switch sides between desktop and mobile; Roti Goreng Bontang forms the base.
+- Preserve the existing serif typography, cyan/pink accents, crystalline geometry, framing, navigation access, and light/dark themes.
+- The final introduction copy remains unapproved. Copy and study annotations in the mockups are not automatically approved visitor-facing text.
+
+Approved composition references:
+
+- [Desktop mockup](references/bluwrn-hero-desktop-reference.png)
+- [Mobile mockup](references/bluwrn-hero-mobile-reference.png)
+
+These PNGs define visual direction and composition, not exact pixels or runtime artwork assets. Use the verified WebP files below when Phase 4 is authorized.
+
 ## 3. Content and Structure
 
 The portfolio emphasizes graphic design work.
@@ -42,6 +60,17 @@ Graphic design gallery:
 - Project grouping and image viewing interactions.
 - Use actual artwork and existing assets.
 - Allow placeholders for missing content.
+
+The four intended hero projects and selected assets are:
+
+| Project | Verified repository asset |
+|---|---|
+| Color Your Night | [public/artwork/color-your-night.webp](../public/artwork/color-your-night.webp) |
+| Bijak Bersosial Media | [public/artwork/bijak-sosialmedia.webp](../public/artwork/bijak-sosialmedia.webp) |
+| MOCA 2026 | [public/artwork/moca-banner.webp](../public/artwork/moca-banner.webp) |
+| Roti Goreng Bontang | [public/artwork/roti-goreng-kdm.webp](../public/artwork/roti-goreng-kdm.webp) |
+
+These selections match `data/artworks.js`. Keep the artwork inventory and gallery unchanged; the hero is a separate curated presentation. Do not substitute the MOCA name graphic or Roti Goreng title strip for the selected banners.
 
 Computer science and programming:
 - Keep these as educational interests and part of the user's learning journey.
@@ -120,8 +149,20 @@ Known design decisions:
 - Featured artwork and full gallery concept.
 - Existing light/dark theme work.
 - Email, GitHub, and Instagram contact links use the user-supplied details above.
-- Phase 2 changes identity and content while preserving the established art direction. Visual redesign and dedicated design rules are deferred to a later phase; do not create DESIGN.md yet.
+- Phase 3 records the approved curated-stack hero and design rules in `docs/DESIGN.md`. The current application still has the category-led `GRAPHIC / DESIGN.` hero; the approved replacement is pending Phase 4.
 
 The exact implementation status must be verified from the local codebase.
 
 Do not treat design plans as proof that features have been completed.
+
+## 9. Five-Phase Roadmap
+
+| Phase | Scope | Status |
+|---|---|---|
+| Phase 1 | Technical Foundation | Complete |
+| Phase 2 | Identity & Content Cleanup | Complete |
+| Phase 3 | Design Direction & Rules | Current |
+| Phase 4 | Implementation & Visual Polish | Pending |
+| Phase 5 | Final QA & Deployment | Pending |
+
+The approved composition and this documentation do not authorize application changes. Wait for explicit Phase 4 instructions before implementing the hero. Do not commit, push, or deploy automatically.
