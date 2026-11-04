@@ -9,7 +9,7 @@ Personal portfolio for my graphic design work. I'm also a computer science stude
 - Light and dark modes, with the selected theme saved in the browser.
 - Sections for about, tools and learning, and contact.
 
-Contact links are available for email, GitHub, and Instagram. The public software showcase has been removed; programming remains part of my studies and interests.
+The software project previews and contact links are still placeholders.
 
 ## Run locally
 
