@@ -3,7 +3,8 @@
 
 ## 1. Project Identity
 
-Name: BLUWRN / Bluw
+Personal introduction/call name: Bluw.
+Portfolio brand and main masthead: BLUWRN.
 
 This is a personal portfolio for a graphic designer who is also a computer science student learning and exploring programming.
 
@@ -40,7 +41,7 @@ Approved hero direction:
 - On desktop, the introduction and actions sit on the left and the stack on the right beneath the masthead. On mobile, introduction and actions precede the stack in a vertical composition.
 - Color Your Night is the front print; Bijak and MOCA are rear prints that switch sides between desktop and mobile; Roti Goreng Bontang forms the base.
 - Preserve the existing serif typography, cyan/pink accents, crystalline geometry, framing, navigation access, and light/dark themes.
-- The final introduction copy remains unapproved. Copy and study annotations in the mockups are not automatically approved visitor-facing text.
+- Use the approved hero introduction recorded under Copywriting below. Other copy and study annotations in the mockups are not automatically approved visitor-facing text.
 
 Approved composition references:
 
@@ -101,6 +102,14 @@ Do not fabricate projects, achievements, experiences, skills, or placeholder con
 ## 5. Copywriting
 
 Avoid AI-generated marketing language and filler.
+
+Approved hero introduction (exact wording):
+
+> Hi, I'm Bluw.
+>
+> I'm a graphic designer based in Bontang, Indonesia. I work on posters, event graphics, and print layouts.
+
+These two paragraphs replace the earlier provisional introduction and the mockup greeting's use of "Bluwrn". Additional hero copy requires owner approval.
 
 Preferred:
 - Direct, simple, human writing.

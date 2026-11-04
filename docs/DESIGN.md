@@ -2,7 +2,7 @@
 
 ## 1. Status and sources
 
-Phase 3: Design Direction & Rules. The owner has approved the curated-stack hero composition. Phase 4 implementation has not started. The final introduction copy remains unapproved.
+Phase 3: Design Direction & Rules. The owner has approved the curated-stack hero composition and the hero introduction recorded in section 11. Phase 4 implementation has not started.
 
 Read this specification alongside [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md) before design or UI work. The current application remains the source of truth for existing behavior, assets, and technical details; the approved references define the intended hero composition.
 
@@ -150,17 +150,15 @@ Theme state currently uses `data-theme` and `color-scheme` on the root element, 
 - Use concise, truthful copy. Avoid generic creative slogans, exaggerated service claims, repetitive professional labels, and programming presented as a professional offering.
 - Use overlap and static tilt to suggest physical prints. Do not obscure most of the work, add meaningless rotation, or make decorative effects more prominent than the actual compositions.
 
-## 11. Provisional copy and open decisions
+## 11. Approved hero copy and remaining decisions
 
-The masthead `BLUWRN.` and curated-stack direction are approved. The following introduction is a proposal only, not approved final website copy:
+The portfolio brand and main masthead are `BLUWRN.`. The personal introduction/call name is `Bluw`. The curated-stack direction and the following two-paragraph hero introduction are approved:
 
 > Hi, I'm Bluw.
 >
-> A graphic designer based in Bontang, Indonesia.
->
-> Posters, event graphics, and print layouts.
+> I'm a graphic designer based in Bontang, Indonesia. I work on posters, event graphics, and print layouts.
 
-The reference greeting uses "Bluwrn"; the existing biography uses "Bluw". The preferred greeting name and exact wording need owner approval. Do not treat copy appearing inside the reference PNGs as approved text. Programming can remain in About and Toolkit without being repeated in the hero; any added hero sentence about it must remain educational and provisional.
+This decision supersedes the reference greeting's use of "Bluwrn" and the earlier provisional introduction. Use the exact approved wording above; other copy and study annotations in the reference PNGs are not automatically approved visitor-facing text. Programming can remain in About and Toolkit without being repeated in the hero; any added hero sentence about it must remain educational and requires owner approval.
 
 Retain the existing `VIEW WORK` and `ABOUT ME` destinations. Additional labels, a rendered four-work count, paper-edge treatment in dark mode, and any new artwork interaction must be reviewed in context during Phase 4; they are not inferred final copy or behavior from mockup annotations.
 
