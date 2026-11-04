@@ -5,12 +5,12 @@
 
 Name: BLUWRN / Bluw
 
-This is a personal portfolio for a graphic designer who is also a computer science student and developer.
+This is a personal portfolio for a graphic designer who is also a computer science student learning and exploring programming.
 
 Primary identity: Graphic Designer.
-Secondary identity: Developer / Computer Science Student.
+Secondary background: Computer Science Student; programming is an educational interest and an area of ongoing learning.
 
-The purpose of the website is to showcase actual graphic design work and selected programming projects.
+The purpose of the website is to showcase actual graphic design work. Do not present graphic design and programming as equally developed professional skill sets or market professional web development services.
 
 The portfolio is already implemented using Next.js and deployed on Vercel. Continue developing the existing codebase rather than rebuilding it.
 
@@ -43,10 +43,18 @@ Graphic design gallery:
 - Use actual artwork and existing assets.
 - Allow placeholders for missing content.
 
-Software development:
-- Showcase selected programming projects separately.
-- Keep software projects visually distinct from the graphic design gallery.
-- Use accurate descriptions based on real projects.
+Computer science and programming:
+- Keep these as educational interests and part of the user's learning journey.
+- Preserve truthful references in About and Toolkit without implying established professional development experience.
+- The public software project showcase and its placeholder entries were removed in Phase 2. Do not add them back without an explicit request.
+- Preserve original project files, artwork assets, and unrelated code. Removal of the showcase only authorizes cleanup of its unused presentation code.
+
+Contact channels:
+- Email: [design.bluw@gmail.com](mailto:design.bluw@gmail.com)
+- GitHub: https://github.com/bluwrn
+- Instagram: https://www.instagram.com/bramnt.io/
+- Use these exact supplied destinations and meaningful accessible link labels. External links opened in new tabs must use appropriate security attributes.
+- No contact form, backend, or additional platforms are needed.
 
 Do not fabricate projects, achievements, experiences, skills, or placeholder content presented as real work.
 
@@ -70,6 +78,7 @@ Preferred:
 - Concise project descriptions.
 - Personality without forced cleverness.
 - Natural language suited to an independent designer.
+- Describe programming as study, exploration, and learning rather than a professional service.
 
 Avoid:
 - Empty buzzwords.
@@ -83,6 +92,7 @@ Avoid:
 - Styling: Inspect the current repository to determine the actual implementation.
 - Deployment: Vercel, connected to the project's Git workflow.
 - Repository: Continue using the existing repository and Git history.
+- Implementation: JavaScript/JSX, handwritten global CSS with light/dark theme tokens, and browser state for gallery and theme interactions. Inspect the codebase before changing these details.
 
 Treat the current repository as the technical source of truth.
 
@@ -105,9 +115,12 @@ Known design decisions:
 - BLUWRN branding.
 - Graphic-design-first presentation.
 - Experimental Japanese-inspired direction.
-- Separate graphic design and software sections.
+- Graphic design is the main public portfolio content; the former software showcase was removed in Phase 2.
+- Computer science and programming remain visible as educational background and learning interests.
 - Featured artwork and full gallery concept.
 - Existing light/dark theme work.
+- Email, GitHub, and Instagram contact links use the user-supplied details above.
+- Phase 2 changes identity and content while preserving the established art direction. Visual redesign and dedicated design rules are deferred to a later phase; do not create DESIGN.md yet.
 
 The exact implementation status must be verified from the local codebase.
 

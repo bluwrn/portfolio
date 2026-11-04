@@ -1,12 +1,9 @@
-This folder is reserved for real software project screenshots.
+This folder was reserved for software project screenshots in an earlier version
+of the portfolio. The public software showcase and its presentation component
+were removed in Phase 2. The current portfolio does not load images from here.
 
-The software entries and their screenshot placeholders are defined in
-components/SoftwareShowcase.js. That component currently has no image field or
-screenshot-loading implementation.
-
-When implementing real previews, place the screenshots here and update
-SoftwareShowcase.js to render them using public URLs such as
-/projects/your-image.webp. Do not include /public in the URL.
+The folder is retained for historical context. Its presence does not mean a
+software showcase is planned or should be added.
 
 Graphic design artwork is managed separately in public/artwork/ and
 data/artworks.js.

@@ -1,11 +1,11 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Bluwrn — Graphic Design & Web Projects",
-  description: "Graphic design, print work, promotional graphics, and web projects by Bluw / Bluwrn, based in Bontang, Indonesia.",
+  title: "Bluwrn — Graphic Designer",
+  description: "Graphic design, print work, and promotional graphics by Bluw / Bluwrn, based in Bontang, Indonesia.",
   openGraph: {
-    title: "Bluwrn — Graphic Design & Web Projects",
-    description: "Selected graphic design, client work, and web projects by Bluwrn.",
+    title: "Bluwrn — Graphic Designer",
+    description: "Selected graphic design, print work, and promotional graphics by Bluwrn.",
     type: "website",
   },
 };
