@@ -1,0 +1,204 @@
+BLUWRN toolkit icon credits and licenses
+
+These icons identify tools used or studied by the portfolio owner. They do not
+indicate sponsorship, certification, partnership, or endorsement.
+
+Original local assets and sources (retrieved 2026-11-04):
+
+affinity.png — Affinity by Canva, official 192px application icon:
+https://static.canva.com/domain-assets/affinity/static/images/android-192x192-2.png
+Linked as the application icon by https://www.affinity.studio/
+Copyright and trademarks belong to Canva. The owner confirmed logo-use permission.
+https://www.canva.com/policies/trademark-policy/
+https://public.canva.site/canva-trademark-policy
+
+coreldraw.png — CorelDRAW, official product icon:
+https://www.coreldraw.com/static/cdgs/images/product-icons/corel/cdgs-small.png
+Linked by https://www.coreldraw.com/en/
+Trademark(s) of Corel Corporation. The owner confirmed logo-use permission.
+https://www.corel.com/content/pdf/legal/guidelines_trademarks.pdf
+
+canva.svg — Canva circle logo, unchanged Devicon SVG:
+https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/canva/canva-original.svg
+Devicon's MIT license is reproduced below. Canva retains its trademark rights;
+the owner confirmed logo-use permission. The original cyan color is preserved.
+https://www.canva.com/policies/trademark-policy/
+
+The following nine SVG files are copied unchanged from Simple Icons at commit
+b45ca1f11d9d013a7c462944d90a049bc613ad4f (CC0 license reproduced below).
+They are displayed in black on light surfaces and white on dark surfaces using
+CSS inversion. Geometry is unchanged. Brand-specific rights and credits follow;
+the collection's CC0 license does not grant trademark rights.
+
+figma.svg:
+https://github.com/simple-icons/simple-icons/blob/b45ca1f11d9d013a7c462944d90a049bc613ad4f/icons/figma.svg
+Identity and informational-use guidelines: https://www.figma.com/using-the-figma-brand/
+Figma and its logo are trademarks of Figma, Inc.
+
+html5.svg:
+https://github.com/simple-icons/simple-icons/blob/b45ca1f11d9d013a7c462944d90a049bc613ad4f/icons/html5.svg
+HTML5 logo by W3C, under Creative Commons Attribution 3.0:
+https://www.w3.org/html/logo/
+https://creativecommons.org/licenses/by/3.0/
+Monochrome rendition supplied by Simple Icons.
+
+css.svg:
+https://github.com/simple-icons/simple-icons/blob/b45ca1f11d9d013a7c462944d90a049bc613ad4f/icons/css.svg
+CSS logo by Javi Aguilar and the CSS-Next Community Group, CC0 1.0:
+https://github.com/CSS-Next/logo.css
+https://creativecommons.org/publicdomain/zero/1.0/
+Monochrome rendition supplied by Simple Icons.
+
+javascript.svg:
+https://github.com/simple-icons/simple-icons/blob/b45ca1f11d9d013a7c462944d90a049bc613ad4f/icons/javascript.svg
+Community JavaScript logo by Christopher Williams / JSConf, MIT:
+https://github.com/voodootikigod/logo.js
+Monochrome rendition supplied by Simple Icons; source license reproduced below.
+
+python.svg:
+https://github.com/simple-icons/simple-icons/blob/b45ca1f11d9d013a7c462944d90a049bc613ad4f/icons/python.svg
+Python logo by Tim Parkin; Python and the two-snakes logo are trademarks of
+the Python Software Foundation. Used to identify the Python language.
+https://www.python.org/community/logos/
+https://www.python.org/psf/trademarks/
+
+php.svg:
+https://github.com/simple-icons/simple-icons/blob/b45ca1f11d9d013a7c462944d90a049bc613ad4f/icons/php.svg
+PHP logo by Colin Viebrock, Creative Commons Attribution-ShareAlike 4.0:
+https://www.php.net/download-logos.php
+https://creativecommons.org/licenses/by-sa/4.0/
+Monochrome rendition supplied by Simple Icons. This rendition and its displayed
+color variation remain available under CC BY-SA 4.0; no endorsement is implied.
+
+react.svg:
+https://github.com/simple-icons/simple-icons/blob/b45ca1f11d9d013a7c462944d90a049bc613ad4f/icons/react.svg
+React logo from the React project's MIT-licensed source:
+https://github.com/facebook/create-react-app/blob/282c03f9525fdf8061ffa1ec50dce89296d916bd/test/fixtures/relative-paths/src/logo.svg
+Copyright (c) 2013-present, Facebook, Inc. Source license reproduced below.
+Monochrome rendition supplied by Simple Icons.
+
+nextdotjs.svg:
+https://github.com/simple-icons/simple-icons/blob/b45ca1f11d9d013a7c462944d90a049bc613ad4f/icons/nextdotjs.svg
+Identity and descriptive-use guidelines: https://vercel.com/geist/brands
+Vercel, the Vercel design, Next.js and related marks, designs and logos are
+trademarks or registered trademarks of Vercel, Inc. or its affiliates in the US
+and other countries.
+
+git.svg:
+https://github.com/simple-icons/simple-icons/blob/b45ca1f11d9d013a7c462944d90a049bc613ad4f/icons/git.svg
+Git logo by Jason Long, Creative Commons Attribution 3.0 Unported:
+https://git-scm.com/community/logos
+https://creativecommons.org/licenses/by/3.0/
+Monochrome rendition supplied by Simple Icons.
+
+
+Simple Icons CC0 license
+https://raw.githubusercontent.com/simple-icons/simple-icons/b45ca1f11d9d013a7c462944d90a049bc613ad4f/LICENSE.md
+
+# CC0 1.0 Universal
+
+## Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related Rights (defined below) upon the creator and subsequent owner(s) (each and all, an “owner”) of an original work of authorship and/or a database (each, a “Work”).
+
+Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a commons of creative, cultural and scientific works (“Commons”) that the public can reliably and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse and redistribute as freely as possible in any form whatsoever and for any purposes, including without limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a free culture and the further production of creative, cultural and scientific works, or to gain reputation or greater distribution for their Work in part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any expectation of additional consideration or compensation, the person associating CC0 with a Work (the “Affirmer”), to the extent that he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and related or neighboring rights (“Copyright and Related Rights”). Copyright and Related Rights include, but are not limited to, the following:
+    1. the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;
+    2. moral rights retained by the original author(s) and/or performer(s);
+    3. publicity and privacy rights pertaining to a person’s image or likeness depicted in a Work;
+    4. rights protecting against unfair competition in regards to a Work, subject to the limitations in paragraph 4(i), below;
+    5. rights protecting the extraction, dissemination, use and reuse of data in a Work;
+    6. database rights (such as those arising under Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, and under any national implementation thereof, including any amended or successor version of such directive); and
+    7. other similar, equivalent or corresponding rights throughout the world based on applicable law or treaty, and any national implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention of, applicable law, Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons, and surrenders all of Affirmer’s Copyright and Related Rights and associated claims and causes of action, whether now known or unknown (including existing as well as future claims and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the “Waiver”). Affirmer makes the Waiver for the benefit of each member of the public at large and to the detriment of Affirmer’s heirs and successors, fully intending that such Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other legal or equitable action to disrupt the quiet enjoyment of the Work by the public as contemplated by Affirmer’s express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason be judged legally invalid or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent permitted taking into account Affirmer’s express Statement of Purpose. In addition, to the extent the Waiver is so judged Affirmer hereby grants to each affected person a royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and unconditional license to exercise Affirmer’s Copyright and Related Rights in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the “License”). The License shall be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of the License for any reason be judged legally invalid or ineffective under applicable law, such partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and causes of action with respect to the Work, in either case contrary to Affirmer’s express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+    1. No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.
+    2. Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law.
+    3. Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person’s Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work.
+    4. Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.
+
+For more information, please see <https://creativecommons.org/publicdomain/zero/1.0>.
+
+
+Devicon MIT license
+https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/LICENSE
+
+The MIT License (MIT)
+
+Copyright (c) 2015 konpa
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+JavaScript logo MIT license
+https://raw.githubusercontent.com/voodootikigod/logo.js/1544bdeed6d618a6cfe4f0650d04ab8d9cfa76d9/LICENSE
+
+The MIT License (MIT)
+
+Copyright (c) 2011 Christopher Williams <chris@iterativedesigns.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+React source MIT license
+https://raw.githubusercontent.com/facebook/create-react-app/282c03f9525fdf8061ffa1ec50dce89296d916bd/LICENSE
+
+MIT License
+
+Copyright (c) 2013-present, Facebook, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
