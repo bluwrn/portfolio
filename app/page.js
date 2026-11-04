@@ -17,7 +17,7 @@ export default function Home() {
       <header className="site-header" id="top">
         <a className="brand" href="#top" aria-label="Bluwrn, back to top">BLUWRN<span className="brand-pink">.</span><span className="brand-description">DESIGN / DEVELOPMENT</span></a>
         <nav className="site-nav" aria-label="Primary navigation">
-          <a href="#work">[01] WORK</a><a href="#archive">[02] ARCHIVE</a><a href="#development">[03] WEB</a><a href="#about">[04] ABOUT</a><a href="#contact">[05] CONTACT</a>
+          <a href="#work">[01] WORK</a><a href="#archive">[02] ARCHIVE</a><a href="#development">[03] WEB</a><a href="#about">[04] ABOUT</a><a href="#skills">[05] TOOLKIT</a><a href="#contact">[06] CONTACT</a>
         </nav>
         <div className="header-controls"><ThemeToggle /></div>
       </header>
@@ -27,7 +27,7 @@ export default function Home() {
           <div className="hero-meta mono small"><Ident>PORTFOLIO / OVERVIEW</Ident><span>EST. IN BONTANG, ID</span></div>
           <div className="hero-frame">
             <span className="frame-top-left" aria-hidden="true"/><span className="frame-bottom-left" aria-hidden="true"/><span className="frame-bottom-right" aria-hidden="true"/>
-            <Image className="crystal-background" src="/crystalline-shards.svg" alt="" fill unoptimized priority sizes="100vw" />
+            <Image className="crystal-background" src="/crystalline-shards.svg" alt="" fill unoptimized preload sizes="100vw" />
             <span className="hero-ghost" aria-hidden="true">BLUWRN</span>
             <div className="hero-status"><span><span className="status-flag"/> GRAPHIC DESIGNER</span><span className="hero-status-divider">/</span><span>COMPUTER SCIENCE STUDENT</span><span className="hero-status-fade">BONTANG, INDONESIA</span></div>
             <div className="hero-copy">
@@ -48,7 +48,7 @@ export default function Home() {
           <div className="section-identity"><Ident>04 / ABOUT ME</Ident><span className="mono small muted">A BIT OF CONTEXT</span></div>
           <div className="section-heading"><h2 id="about-title">ABOUT <em>ME</em><span className="cyan-stop">.</span></h2></div>
           <div className="about-grid">
-            <div className="about-intro"><p>I'm Bluw, a graphic designer based in Bontang, Indonesia, and a third-year computer science student.</p><p>I work with client graphics, event materials, and print production. On the software side, I'm learning to build interfaces and web applications.</p></div>
+            <div className="about-intro"><p>I&apos;m Bluw, a graphic designer based in Bontang, Indonesia, and a third-year computer science student.</p><p>I work with client graphics, event materials, and print production. On the software side, I&apos;m learning to build interfaces and web applications.</p></div>
             <div className="about-panels"><div className="about-panel cyan-edge"><Ident>DESIGN & PRINT</Ident><p>Campaign graphics, posters, banners, commercial layouts, and print-ready artwork.</p></div><div className="about-panel pink-edge"><Ident>COMPUTER SCIENCE</Ident><p>Web projects, front-end interfaces, and an ongoing interest in how things work.</p></div></div>
           </div>
         </section>

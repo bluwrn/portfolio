@@ -12,6 +12,13 @@ function Label({ children, index }) {
 
 function WorkTile({ project, index, featured = false, onOpen }) {
   const visual = project.images[0];
+  // Match the section gutters, grid gaps and featured column spans in globals.css.
+  const contentWidth = "100vw - 2 * clamp(22px, 4.3vw, 78px)";
+  const featuredGap = "clamp(15px, 2.1vw, 28px)";
+  const featuredSpan = index === 0 || index === 5 ? 7 : index === 1 || index === 4 ? 5 : 6;
+  const sizes = featured
+    ? `(max-width: 620px) calc(100vw - 36px), (max-width: 800px) calc((${contentWidth} - ${featuredGap}) / 2), calc((${contentWidth} + ${featuredGap}) * ${featuredSpan} / 12 - ${featuredGap})`
+    : `(max-width: 620px) calc(100vw - 36px), (max-width: 800px) calc((${contentWidth} - 18px) / 2), calc((${contentWidth} - 36px) / 3)`;
   return (
     <button
       className={`${featured ? "featured-tile" : "archive-tile"} work-tile`}
@@ -25,9 +32,8 @@ function WorkTile({ project, index, featured = false, onOpen }) {
           src={visual.src}
           alt={visual.alt}
           fill
-          sizes={featured ? "(max-width: 700px) 100vw, (max-width: 1100px) 48vw, 55vw" : "(max-width: 620px) 90vw, (max-width: 990px) 48vw, 28vw"}
+          sizes={sizes}
           className="artwork-image"
-          priority={featured && index === 0}
         />
         <span className="tile-open" aria-hidden="true">↗</span>
         {project.images.length > 1 && <span className="tile-count">{project.images.length} IMAGES</span>}
@@ -81,7 +87,7 @@ function WorkLightbox({ project, index, onIndex, onClose, onProjectChange }) {
         </div>
         <div className="lightbox-body">
           <div className="lightbox-stage">
-            <Image key={image.src} src={image.src} alt={image.alt} fill sizes="(max-width: 800px) 100vw, 70vw" className="lightbox-image" priority />
+            <Image key={image.src} src={image.src} alt={image.alt} fill sizes="(max-width: 620px) 100vw, (max-width: 800px) calc(100vw - 2 * clamp(10px, 2vw, 28px) - 237px), calc(min(1400px, 100vw - 2 * clamp(10px, 2vw, 28px)) - 297px)" className="lightbox-image" loading="eager" />
             {multiple && <>
               <button className="viewer-nav viewer-prev" type="button" onClick={() => onIndex((index - 1 + project.images.length) % project.images.length)} aria-label="Previous image">←</button>
               <button className="viewer-nav viewer-next" type="button" onClick={() => onIndex((index + 1) % project.images.length)} aria-label="Next image">→</button>
@@ -96,7 +102,7 @@ function WorkLightbox({ project, index, onIndex, onClose, onProjectChange }) {
             <p className="viewer-image-name">{image.name}</p>
             {multiple && <div className="viewer-thumbnails" aria-label="Images in this project">
               {project.images.map((item, i) => <button type="button" key={item.src} className={`viewer-thumb ${i===index?"is-current":""}`} onClick={() => onIndex(i)} aria-label={`View ${item.name}`} aria-pressed={i===index}>
-                <Image src={item.src} alt="" fill sizes="90px" className="thumb-image" />
+                <Image src={item.src} alt="" fill sizes="(max-width: 620px) 52px, 68px" className="thumb-image" />
               </button>)}
             </div>}
             <div className="viewer-spacer" />
@@ -137,7 +143,7 @@ export default function ArtworkGallery() {
         <div className="featured-grid">
           {featuredProjects.map((project,index) => <WorkTile key={project.id} project={project} index={index} featured onOpen={open} />)}
         </div>
-        <div className="section-end"><span className="mono small muted">06 FEATURED PROJECTS</span><a className="text-arrow-link" href="#archive">EXPLORE ALL WORK <span aria-hidden="true">↘</span></a></div>
+        <div className="section-end"><span className="mono small muted">{String(featuredProjects.length).padStart(2,"0")} FEATURED PROJECTS</span><a className="text-arrow-link" href="#archive">EXPLORE ALL WORK <span aria-hidden="true">↘</span></a></div>
       </section>
 
       <section id="archive" className="section-shell archive-section" aria-labelledby="archive-title">
